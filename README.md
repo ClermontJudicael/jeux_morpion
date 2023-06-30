@@ -1,47 +1,7 @@
-![image](https://github.com/ClermontJudicael/jeux_morpion/assets/135115381/604efbc6-7120-4f61-8740-a437df898c88)# Morpion game
+## 3x3
 
-A school project made by Clermont Judicaël, @Miantsa7 and more
+#![3x3](https://github.com/ClermontJudicael/jeux_morpion/assets/135115381/8ca28b7f-9f5d-4cbb-ae4a-ef24bca1303f)
 
-# Game overview
-### 3x3
-![3x3](https://github.com/ClermontJudicael/jeux_morpion/assets/135115381/9e747ff1-63d8-461a-9de3-b188cc68e21f)
+## 6x6
 
-### 6x6
-![6x6](https://github.com/ClermontJudicael/jeux_morpion/assets/135115381/ed2ecf17-9522-46c9-a774-176b1fda3995)
-
-## Install requirements:
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>README</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-  <style>
-    .btn {
-      border: none;
-      background: #007bff;
-      color: #fff;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-  </style>
-</head>
-<body>
-  <pre><code id="commande">pip install -r requirements.txt</code></pre>
-  <button class="btn" data-clipboard-target="#commande">Copier</button>
-
-  <script>
-    var clipboard = new ClipboardJS('.btn');
-    clipboard.on('success', function(e) {
-      e.clearSelection();
-      console.log('Copié !');
-    });
-
-    clipboard.on('error', function(e) {
-      console.error('Échec de la copie : ', e);
-    });
-  </script>
-</body>
-</html>
-
+![6x6](https://github.com/ClermontJudicael/jeux_morpion/assets/135115381/7c77de91-36e3-4007-b524-9f0be0ab10f9)
