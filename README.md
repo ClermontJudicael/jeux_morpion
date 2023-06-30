@@ -33,7 +33,6 @@ A school project made by Clermont Judicaël, @Miantsa7 and more
 
   <script>
     var clipboard = new ClipboardJS('.btn');
-
     clipboard.on('success', function(e) {
       e.clearSelection();
       console.log('Copié !');
