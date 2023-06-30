@@ -11,4 +11,38 @@ A school project made by Clermont Judicaël, @Miantsa7 and more
 
 ## Install requirements:
 
-<clipboard-copy>pip install -r requirements.txt</clipboard-copy>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>README</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+  <style>
+    .btn {
+      border: none;
+      background: #007bff;
+      color: #fff;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <pre><code id="commande">pip install -r requirements.txt</code></pre>
+  <button class="btn" data-clipboard-target="#commande">Copier</button>
+
+  <script>
+    var clipboard = new ClipboardJS('.btn');
+
+    clipboard.on('success', function(e) {
+      e.clearSelection();
+      console.log('Copié !');
+    });
+
+    clipboard.on('error', function(e) {
+      console.error('Échec de la copie : ', e);
+    });
+  </script>
+</body>
+</html>
+
