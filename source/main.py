@@ -8,8 +8,15 @@ import pygame
 import random
 from function import Morpion
 
+# the actual game doesn't support player vs computer
+# maybe in the future i will add it, but i leave python for C++ (i've lost motivation for python
+# C++ is just very cool and fast, even though it's hard)
+
 pygame.mixer.init()
 music_obj = music_class()
+
+# pick a number randomly and choose a music using the number, there's only 4 music
+# all the audio are OST from the game "Nameless cat"(it's a really good pixel game, have a try!)
 
 
 class audio:
